@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+.material-symbols-rounded {
+    padding-right: 0.5rem;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48,
+}
+
+#icon-logo {
+    color: F2F2F2;
+    font-size: 36px;
+}
+
+.mat-icon {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    padding-right: 0.5rem;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0.5rem 0;
+}
+
+.button {
+    display: inline-block;
+    font-family:'Maven Pro', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 9px 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4982A6;
+    color: #F2F2F2;
+}
+
+body {
+    font-family: 'Albert Sans', sans-serif;
+    color: #3a3a3a;
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 2fr;
+    grid-template-areas:
+    "nav sec-nav sec-nav"
+    "nav main-section aside";
+}
+
+img {
+    border-radius: 50%;
+    max-width: -webkit-fill-available;
+}
+
+.nav {
+    grid-area: nav;
+    display: flex;
+    flex-direction:column;
+    padding: 0 2rem;
+    background-color: #4982A6;
+    color: #F2F2F2;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 2rem 0;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 0;
+}
+
+.item-menu {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.item-main-menu {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#icon-logo {
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+    padding-right: 0.5rem;
+}
+
+#name-logo {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    max-width: fit-content;
+}
+
+.icon-home::before {
+    font-family: 'Material Icons';
+    content: '\e88a';
+}
+
+.icon-profile::before {
+    font-family: 'Material Icons';
+    content: '\f8de';
+}
+
+.icon-messages::before {
+    font-family: 'Material Icons';
+    content: '\e0ca';
+}
+
+.icon-tasks::before {
+    font-family: 'Material Icons';
+    content: '\e02e';
+}
+
+.icon-community::before {
+    font-family: 'Material Icons';
+    content: '\f233';
+}
+.icon-settings::before {
+    font-family: 'Material Icons';
+    content: '\e8b8';
+}
+
+.icon-support::before {
+    font-family: 'Material Icons';
+    content: '\e887';
+}
+.icon-privacity::before {
+    font-family: 'Material Icons';
+    content: '\e8e8';
+}
+
+.sec-nav {
+    grid-area: sec-nav;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem 2rem;
+    justify-content: center;
+}
+
+.sec-nav div{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+span.user-name {
+    margin: 0.5rem 1rem;
+}
+
+div.user-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0.5rem 1rem;
+}
+.name-ppal > h2 {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+div.user-avatar1 {
+    width: 3rem;
+    height: 3rem;
+}
+
+div.user-avatar2 {
+    width: 5rem;
+    height: 5rem;
+}
+
+.item-bar-menu {
+    padding: 0.5rem;
+}
+
+#search-bar-menu {
+    flex: auto;
+    padding: 0.5rem 1rem;
+}
+#search-bar-menu input {
+    width: 100%;
+    min-height: 2em;
+    border-radius: 12px;
+    border: none;
+    background-color: gainsboro;
+}
+
+#user-bar-menu {
+    flex: auto;
+}
+
+#bar-menu-buttons{
+    gap: 18px;
+}
+
+.main-section {
+    grid-area: main-section;
+    background-color: #F1f1f1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.title-section {
+    padding: 0 1rem;
+}
+
+.card-projects-section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow: auto;
+}
+
+.card-project {
+    max-width: calc((100% - 1rem) / 2);
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    display: flex;  
+    flex-direction: column;
+    flex: auto;
+    padding: 1rem;
+}
+
+.card-project > div {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.icon-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#aside-notification {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    grid-area: aside;
+    padding: 1rem;
+    background-color: #F1f1f1;
+}
+
+.notification {
+    display: flex;
+    flex-direction: column;
+    grid-area: 12px;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.user-card {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}

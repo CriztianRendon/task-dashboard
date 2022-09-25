@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Proyecto ODIN - Dashboard</title>
+</head>
+<body>
+  <head>
+    <nav class="nav">
+      <div class="logo">
+        <span id= "icon-logo" class="mat-icon">dashboard</span>
+        <a href="#"><h1 id="name-logo">Dashboard</h1></a>
+      </div>
+      <ul class="main-menu">
+        <li>
+          <a href="#" class="item-menu">
+            <span role="img" aria-label="home" class="mat-icon icon-home"></span>
+            <span class="item-main-menu">Inicio</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="item-menu">
+          <span role="img" aria-label="profile" class="mat-icon icon-profile"></span>
+          <span class="item-main-menu">Perfil</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="item-menu">
+          <span role="img" aria-label="messages" class="mat-icon icon-messages"></span>
+          <span class="item-main-menu">Mensajes</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="item-menu">
+          <span role="img" aria-label="tasks" class="mat-icon icon-tasks"></span>
+          <span class="item-main-menu">Tareas</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="item-menu">
+            <span role="img" aria-label="community" class="mat-icon icon-community"></span>
+            <span class="item-main-menu">Comunidad</span>
+          </a>
+        </li>        
+      </ul>
+      <ul class="main-menu">
+        <li>
+          <a href="#" class="item-menu">
+            <span role="img" aria-label="settings" class="mat-icon icon-settings"></span>
+            <span class="item-main-menu">Configuración</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="item-menu">
+            <span role="img" aria-label="support" class="mat-icon icon-support"></span>
+            <span class="item-main-menu">Soporte</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="item-menu">
+            <span role="img" aria-label="privacity" class="mat-icon icon-privacity"></span>
+            <span class="item-main-menu">Soporte</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="sec-nav">
+      <div>
+        <div id="search-bar-menu" class="item-bar-menu">
+          <label for="search-bar">
+            <span class="material-symbols-rounded">search</span>
+          </label>          
+          <input id="search-bar" name="search-bar" type="text">
+        </div>
+        <div class="item-bar-menu">
+          <span class="material-symbols-rounded">notifications_active</span>
+        </div>
+        <div class="item-bar-menu">
+          <div class="user-avatar1">
+            <img src="images/user-avatar.jpg" alt="user-avatar">
+          </div>
+          <span class="user-name"><h4>Nombre de usuario</h4></span>
+        </div>
+      </div>
+      <div>
+        <div id="user-bar-menu" class="item-bar-menu">
+          <div class="user-avatar2">
+            <img src="images/user-avatar.jpg" alt="user-avatar">
+          </div>
+          <div class="user-name name-ppal">
+            <span>Hola!</span>
+            <h2>Nombre de usuario</h2>            
+          </div>
+        </div>
+        <div id="bar-menu-buttons" class="item-bar-menu">
+          <button class="button">Nuevo</button>
+          <button class="button">Cargar</button>
+          <button class="button">Compartir</button>
+        </div>
+      </div>
+      
+    </nav>
+  </head>
+
+  <section class="main-section">
+    <div class="title-section">
+      <h2>Proyectos</h2>
+    </div>    
+    <div class="card-projects-section">
+      <div class="card-project">
+        <div>
+          <h3>Super proyectos</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis amet atque commodi quaerat eum, earum adipisci maiores voluptate consequuntur
+          </p>
+          <div class="icon-card">
+            <span class="material-symbols-rounded">library_add</span>
+            <span class="material-symbols-rounded">new_label</span>
+            <span class="material-symbols-rounded">insights</span>
+          </div>
+        </div>        
+      </div>
+
+      <div class="card-project">
+        <div>
+          <h3>Cosillas pendientes</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis amet atque commodi quaerat eum, earum adipisci maiores voluptate consequuntur
+          </p>
+          <div class="icon-card">
+            <span class="material-symbols-rounded">library_add</span>
+            <span class="material-symbols-rounded">new_label</span>
+            <span class="material-symbols-rounded">insights</span>
+          </div> 
+        </div>               
+      </div>
+
+      <div class="card-project">
+        <div>
+          <h3>Projectos <s>imposibles</s></h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis amet atque commodi quaerat eum, earum adipisci maiores voluptate consequuntur
+          </p>
+          <div class="icon-card">
+            <span class="material-symbols-rounded">library_add</span>
+          <span class="material-symbols-rounded">new_label</span>
+          <span class="material-symbols-rounded">insights</span>
+          </div> 
+        </div>               
+      </div>
+
+      <div class="card-project">
+        <div>
+          <h3>Tareas fáciles</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis amet atque commodi quaerat eum, earum adipisci maiores voluptate consequuntur
+          </p>
+          <div class="icon-card">
+            <span class="material-symbols-rounded">library_add</span>
+            <span class="material-symbols-rounded">new_label</span>
+            <span class="material-symbols-rounded">insights</span>
+          </div>
+        </div>                
+      </div>
+
+      <div class="card-project">
+        <div>
+          <h3>Bloqueadores ¡EVITAR!</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis amet atque commodi quaerat eum, earum adipisci maiores voluptate consequuntur
+          </p>
+          <div class="icon-card">
+            <span class="material-symbols-rounded">library_add</span>
+            <span class="material-symbols-rounded">new_label</span>
+            <span class="material-symbols-rounded">insights</span>
+          </div>
+        </div>                
+      </div>
+
+      <div class="card-project">
+        <div>
+          <h3>Fabricanes de dinero</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis amet atque commodi quaerat eum, earum adipisci maiores voluptate consequuntur
+          </p>
+          <div class="icon-card">
+            <span class="material-symbols-rounded">library_add</span>
+            <span class="material-symbols-rounded">new_label</span>
+            <span class="material-symbols-rounded">insights</span>
+          </div>
+        </div>                
+      </div>
+    </div>
+  </section>
+  <aside id="aside-notification">
+    <div class="aside">
+      <h2>Notificaciones</h2>
+      <div class="notification">
+        <div class="notificacion-card">
+          <h4>Mantenimiento del sitio</h4>
+          <p>
+            Qarum adipisci maiores voluptate
+          </p> 
+        </div>
+        <div class="notificacion-card">
+          <h4>Compartidos del dia</h4>
+          <p>
+            Qearum adipisci maiores voluptate 
+          </p>
+        </div>
+        <div class="notificacion-card">
+          <h4>Actualizacion de privacidad</h4>
+          <p>
+            Qearum adipisci maiores voluptate
+          </p> 
+        </div>
+      </div>
+    </div>
+    <div class="aside">
+      <h2>Tendencias</h2>
+      <div class="notification">
+        <div class="user-card">
+          <div class="user-avatar1">
+            <img src="images/user-avatar.jpg" alt="user-avatar">
+          </div>
+          <span class="user-name"><h4>Usuario1</h4></span>
+        </div>
+        <div class="user-card">
+          <div class="user-avatar1">
+            <img src="images/user-avatar.jpg" alt="user-avatar">
+          </div>
+          <span class="user-name"><h4>Usuario2</h4></span>
+        </div>
+        <div class="user-card">
+          <div class="user-avatar1">
+            <img src="images/user-avatar.jpg" alt="user-avatar">
+          </div>
+          <span class="user-name"><h4>Usuario3</h4></span>
+        </div>
+        <div class="user-card">
+          <div class="user-avatar1">
+            <img src="images/user-avatar.jpg" alt="user-avatar">
+          </div>
+          <span class="user-name"> <h4>Usuario4</h4></span>
+        </div>
+      </div>      
+    </div>
+  </aside>
+
+  <script src="./index.js"></script>
+</body>
+</html>
